@@ -1,0 +1,154 @@
+/* Header */
+a {
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+.dropdown-menu a {
+    color: #545454;
+}
+
+
+/* Main */
+
+#hero .jumbotron {
+    /* background-image: url(/assets/cover.png); */
+    background-image: url(/backgrounds/19.png);
+    color: white;
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+#hero .jumbotron:after {
+    content:"";
+    display: block;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1 /*Added this in the updated */
+}
+.jumbotron > * {
+    position: relative;
+    z-index: 2;
+}
+
+.display-4 {
+    /* text-shadow: 2px 2px 10px black; */
+    font-weight: 400;
+}
+.jumbotron p {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #29aaaf;
+    
+}
+
+.container h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+    color: #545454;
+}
+
+section {
+    padding: 30px;
+    height: fit-content;
+}
+
+div.container {
+    padding: 0;
+}
+
+/*Galeria*/
+#galeria {
+    /* border: 1px solid blue; */
+    background-image: url(./backgrounds/4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 110vh;
+}
+
+#galeria .carousel-inner img {
+    max-height: 70vh;
+    object-fit: scale-down;
+}
+
+/*Temps*/
+.brochure-img {
+    width: 240px;
+    align-self: center;
+}
+.brochure-text {
+    text-align: center;
+}
+#brochure .card {
+    border: none;
+    padding: 20px;
+}
+
+#brochure .card-title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/*Clients*/
+#clients {
+    padding: 50px 0;
+    background-color: rgba(152, 198, 209, 0.226);
+}
+
+#clients h6 {
+    text-align: center;
+    color: rgb(99, 99, 99);
+    font-weight: 400;
+}
+#clients p{
+    text-align: center;
+}
+/*Reviews*/
+#reviews {
+    background-color: whitesmoke;
+}
+
+#reviews h3 {
+    color: #10868a;
+}
+
+
+/* Acerca de */
+
+img#foto-marie{
+    width: 150px;
+    margin: 20px;
+
+}
+
+/* Footer */
+#footer {
+    background: linear-gradient(90deg, #18a1b8, #34c1c6 25%, #78eaef);
+}
+
+#footer a {
+    color: white;
+}
